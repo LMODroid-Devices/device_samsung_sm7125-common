@@ -1,8 +1,5 @@
 # audio
 vendor.audio_hal.                                u:object_r:vendor_audio_prop:s0
-vendor.audio.voip.device                         u:object_r:vendor_samsung_audio_prop:s0
-vendor.audio.a2dp.connected                      u:object_r:vendor_samsung_audio_prop:s0
-vendor.audio.call.switched                       u:object_r:vendor_samsung_audio_prop:s0
 
 # Bluetooth
 vendor.bluetooth_fw_ver                          u:object_r:vendor_bluetooth_prop:s0
@@ -11,9 +8,6 @@ persist.vendor.bt.                               u:object_r:vendor_bluetooth_pro
 
 # fastcharge
 persist.vendor.sec.fastchg_enabled               u:object_r:vendor_fastcharge_prop:s0
-
-# Fingerprint
-vendor.finger.down                               u:object_r:vendor_fingerprint_prop:s0
 
 # Perf
 ro.vendor.extension_library                      u:object_r:vendor_mpctl_prop:s0
