@@ -38,9 +38,6 @@ TARGET_BOOTLOADER_BOARD_NAME := atoll
 
 TARGET_NO_BOOTLOADER := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_sm7125
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
@@ -147,7 +144,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth/include
 $(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
 
 # FOD
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(COMMON_PATH):libudfps_extension.sm7125
 TARGET_USES_FOD_ZPOS := true
 TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
 TARGET_SEC_FP_REQUEST_TOUCH_EVENT := true
